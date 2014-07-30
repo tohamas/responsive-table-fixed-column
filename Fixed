@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+
+#container  .left-column-wrapper{width:180px; }
+#container  .mainbody{margin-left:179px}
+#container .mainbody table tbody tr td{min-width:150px}
+#container table tbody tr td,#simple-table table tbody tr td{border:#bcbcbc 1px solid;height:45px;padding:0;margin:0;}
+#container table. tbody tr td{font-size:13px; padding-left:10px;}
+#container table tbody tr td{padding:0 7px;  text-align:center;}
+#container table.  tbody tr th{padding:0 7px; }
+
+.left-column-wrapper{background-image:url('shadow.png')}
+.left-column-wrapper{background-position:100% 0;background-repeat:repeat-y;padding-right:14px;position:absolute;width:120px;z-index:1}
+
+.mainbody table tbody tr td:last-child{border-right:1px solid #bcbcbc}
+.mainbody{overflow-y: hidden; overflow-x: scroll;}
+.main-wrapper table{border-collapse:collapse;border-spacing:0;width:100%}
+.main-wrapper table tbody tr th{border:#bcbcbc 1px solid}
+
+</style>
+</head>
+<body>
+<div id="container">
+  <div class="main-wrapper"> 
+    <!---- LEFT COLUMN BEGIN------>
+    <div class="left-column-wrapper" >
+      <table >
+        <tbody>
+          <tr >
+            <th >HEADER</th>
+          </tr>
+          <tr>
+            <td>DATA ROW 1</td>
+          </tr>
+          <tr>
+            <td>DATA ROW 2</td>
+          </tr>
+          <tr>
+            <td>DATA ROW 3</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!---- LEFT COLUMN END ------> 
+    
+    <!---- MAIN TABLE BODY BEGIN ------>
+    <div class="mainbody">
+      <table>
+        <tbody>
+          <tr>
+            <th colspan="2" scope="col" > COLUMN 1 </th>
+            <th colspan="2" scope="col" >COLUMN 2</th>
+            <th colspan="2" scope="col" >COLUMN 3</th>
+            <th colspan="2" scope="col" >COLUMN 4</th>
+            <th colspan="2" scope="col" >COLUMN 5</th>
+            <th colspan="2" scope="col" > COLUMN 6</th>
+            <th colspan="2" scope="col" >COLUMN 7</th>
+            <th colspan="2" scope="col" >COLUMN 8</th>
+            <th colspan="2" scope="col" >COLUMN 9</th>
+            <th colspan="2" scope="col" >COLUMN 10</th>
+            <th colspan="2" scope="col" >COLUMN 11</th>
+            <th colspan="2" scope="col" >COLUMN 12</th>
+          </tr>
+          <tr>
+            <td>52</td>
+            <td>51</td>
+            <td>51</td>
+            <td>51</td>
+            <td>15-32</td>
+            <td>51</td>
+            <td>7-12</td>
+            <td>51</td>
+            <td>14-19</td>
+            <td>51</td>
+            <td>12</td>
+            <td>51</td>
+            <td>7</td>
+            <td>51</td>
+            <td>1</td>
+            <td>51</td>
+            <td>1</td>
+            <td>51</td>
+            <td>3</td>
+            <td>&nbsp;</td>
+            <td>4</td>
+            <td>51</td>
+            <td>5</td>
+            <td>51</td>
+          </tr>
+          <tr>
+            <td>44</td>
+            <td>51</td>
+            <td>13</td>
+            <td>51</td>
+            <td>6-15</td>
+            <td>51</td>
+            <td>0-3</td>
+            <td>51</td>
+            <td>1-1</td>
+            <td>51</td>
+            <td>5</td>
+            <td>51</td>
+            <td>0</td>
+            <td>51</td>
+            <td>0</td>
+            <td>51</td>
+            <td>0</td>
+            <td>51</td>
+            <td>5</td>
+            <td>&nbsp;</td>
+            <td>-4</td>
+            <td>51</td>
+            <td>1</td>
+            <td>51</td>
+          </tr>
+          <tr>
+            <td>18</td>
+            <td>51</td>
+            <td>0</td>
+            <td>51</td>
+            <td>0-2</td>
+            <td>51</td>
+            <td>0-0</td>
+            <td>51</td>
+            <td>0-0</td>
+            <td>51</td>
+            <td>7</td>
+            <td>51</td>
+            <td>2</td>
+            <td>51</td>
+            <td>1</td>
+            <td>51</td>
+            <td>0</td>
+            <td>51</td>
+            <td>0</td>
+            <td>&nbsp;</td>
+            <td>2</td>
+            <td>51</td>
+            <td>0</td>
+            <td>51</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!---- MAIN TABLE BODY ENDS ------> 
+    
+  </div>
+</div>
+</body>
+</html>
