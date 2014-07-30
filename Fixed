@@ -12,7 +12,7 @@
 #container table tbody tr td{padding:0 7px;  text-align:center;}
 #container table.  tbody tr th{padding:0 7px; }
 
-.left-column-wrapper{background-image:url('shadow.png')}
+.left-column-wrapper{background-image:url('http://www.spattbolony.com/shadow.png')}
 .left-column-wrapper{background-position:100% 0;background-repeat:repeat-y;padding-right:14px;position:absolute;width:120px;z-index:1}
 
 .mainbody table tbody tr td:last-child{border-right:1px solid #bcbcbc}
